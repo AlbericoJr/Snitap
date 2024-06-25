@@ -1,10 +1,10 @@
 import { theme } from "@/theme"
 import {View, StyleSheet, Text} from "react-native"
 
-export default function Home(){
+export default function Search(){
   return(
     <View style={styles.container}>
-      <Text style={styles.text}>Home</Text>
+      <Text style={styles.text}>Search</Text>
     </View>
   )
 }
@@ -25,4 +25,4 @@ const styles = StyleSheet.create({
 
 
 // https://youtu.be/O_nZai2DsF4?si=Kjm3L4rfUDOgmbEU
-// 46:20
+// 22:20
