@@ -225,3 +225,45 @@ section.hero{
     transform: translateY(-15rem);
   }
 }
+
+@media (max-width: 480px) {
+  section.hero{
+    
+    padding: 1.5rem 1rem;
+    
+    flex-direction: column-reverse;
+
+  
+    /* buttons */
+    & .buttons{
+      gap: 1.5rem;
+      margin-top: 1rem;
+      flex-direction: column-reverse;
+      & .button{
+        &.buy{
+          padding: 1rem 1.5rem;
+        }
+        
+        &.play span{
+          padding: 1rem;
+        }
+      }
+    }
+  
+    /* patins */
+    & > div:nth-child(2){
+      /* display: block; */
+      width: 80%;
+      max-width: 30.5rem;
+      height: 20.5rem;
+  
+      & img[src*="stars-1"]{
+        max-width: 2.5rem;
+      }
+  
+      & img[src*="stars-2"]{
+        max-width: 1.5rem;
+      }
+    }
+  }
+}
